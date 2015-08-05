@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite" verbose="1" >
+  <test name="Create_Agreement" >
+    <classes>
+       <class name="com.ig.egreement.testing.TestNG_Test" />
+    </classes>
+  </test>
+ 
+  <!-- <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>

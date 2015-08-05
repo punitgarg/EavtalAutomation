@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118618" started-at="2015-08-05T10:37:34Z" finished-at="2015-08-05T10:39:32Z">
+    <groups>
+    </groups>
+    <test name="Create_Agreement" duration-ms="118618" started-at="2015-08-05T10:37:34Z" finished-at="2015-08-05T10:39:32Z">
+      <class name="com.ig.egreement.testing.TestNG_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ig.egreement.testing.TestNG_Test@5a01ccaa]" name="beforeMethod" is-config="true" duration-ms="17144" started-at="2015-08-05T16:07:34Z" finished-at="2015-08-05T16:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testPrivateUserSelection()[pri:0, instance:com.ig.egreement.testing.TestNG_Test@5a01ccaa]" name="testPrivateUserSelection" duration-ms="2369" started-at="2015-08-05T16:07:51Z" finished-at="2015-08-05T16:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivateUserSelection -->
+        <test-method status="PASS" signature="testPrivateUserLogin()[pri:0, instance:com.ig.egreement.testing.TestNG_Test@5a01ccaa]" name="testPrivateUserLogin" duration-ms="44619" started-at="2015-08-05T16:07:53Z" depends-on-methods="com.ig.egreement.testing.TestNG_Test.testPrivateUserSelection" finished-at="2015-08-05T16:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivateUserLogin -->
+        <test-method status="PASS" signature="testCreateAgreementPage()[pri:0, instance:com.ig.egreement.testing.TestNG_Test@5a01ccaa]" name="testCreateAgreementPage" duration-ms="1044" started-at="2015-08-05T16:08:38Z" depends-on-methods="com.ig.egreement.testing.TestNG_Test.testPrivateUserLogin" finished-at="2015-08-05T16:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAgreementPage -->
+        <test-method status="PASS" signature="testCreateAgreement()[pri:0, instance:com.ig.egreement.testing.TestNG_Test@5a01ccaa]" name="testCreateAgreement" duration-ms="53195" started-at="2015-08-05T16:08:39Z" depends-on-methods="com.ig.egreement.testing.TestNG_Test.testCreateAgreementPage" finished-at="2015-08-05T16:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAgreement -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ig.egreement.testing.TestNG_Test@5a01ccaa]" name="afterMethod" is-config="true" duration-ms="226" started-at="2015-08-05T16:09:32Z" finished-at="2015-08-05T16:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ig.egreement.testing.TestNG_Test -->
+    </test> <!-- Create_Agreement -->
+  </suite> <!-- Suite -->
+</testng-results>

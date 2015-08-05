@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Create_Agreement(failed)">
+    <classes>
+      <class name="com.ig.egreement.testing.TestNG_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testCreateAgreement"/>
+          <include name="testPrivateUserLogin"/>
+          <include name="beforeMethod"/>
+          <include name="testCreateAgreementPage"/>
+          <include name="testPrivateUserSelection"/>
+        </methods>
+      </class> <!-- com.ig.egreement.testing.TestNG_Test -->
+    </classes>
+  </test> <!-- Create_Agreement(failed) -->
+</suite> <!-- Failed suite [Suite] -->
